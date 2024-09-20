@@ -1,53 +1,59 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
-    --primary-color:#1a686d;
-    --secondary-color:#e0a012;
-    --thrid-color:#f8f0ca;
-    --black-color:#090606;
-    --white-color:#fbfcfb;
+  --primary-color: #1a686d;
+  --secondary-color: #e0a012;
+  --thrid-color: #f8f0ca;
+  --black-color: #090606;
+  --white-color: #fbfcfb;
 }
 
-
-
-
 .side-right {
-    width:60%;
-    height: 100vh;
-    background: var(--primary-color);
+  width: 60%;
+  height: 100vh;
+  background: var(--primary-color);
 
-    display: flex;
-    justify-content:center;
-    align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .side-left {
-    width:40%;
-    height: 100vh;
-    background: var(--thrid-color);
+  width: 40%;
+  height: 100vh;
+  background: var(--thrid-color);
 
-    display: flex;
-    justify-content:center;
-    align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .kotak-gambar1 {
-    width:300px;
-    height:220px;
-    background: red;
-    margin-left: 110px;
-    margin-bottom:-267px;
-
-
-
-    border-radius: 100px 0 0 100px;
-
-    
+  width: 500px;
+  height: 400px;
+  background: red;
+  background-image: url(img/Bonanza\ Roastery\ Berlin\ _\ reviewed\ by\ The\ Coffeevine.jpeg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 250px;
+  margin-bottom: -150px;
+  border-radius: 200px 0 0 200px;
 }
-
-
+.kotak-gambar2 {
+  width: 500px;
+  height: 400px;
+  background: red;
+  background-image: url(img/Bonanza\ Roastery\ Berlin\ _\ reviewed\ by\ The\ Coffeevine.jpeg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 50px;
+  margin-bottom: -150px;
+  border-radius: 0 200px 200px 0;
+}
